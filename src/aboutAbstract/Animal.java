@@ -1,7 +1,6 @@
 package aboutAbstract;
 
 abstract class Animal {
-
     int wakeUpHour = 9;
 
     public abstract void bark();
