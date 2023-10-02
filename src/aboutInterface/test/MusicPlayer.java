@@ -1,4 +1,4 @@
-package aboutInterface;
+package aboutInterface.test;
 
 public interface MusicPlayer {
 }
