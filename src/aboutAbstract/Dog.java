@@ -1,16 +1,13 @@
 package aboutAbstract;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
 
-    private String species;
-
-    public Dog(String species) {
-        this.species = species;
+    public Dog(String type) {
+        this.type = type;
     }
 
-    @Override
-    public void bark() {
-        System.out.println("This puppy barks like " + this.species);
+    public void bark() { // 중복 멤버
+        System.out.println("This puppy barks like " + this.type);
     }
 
 }

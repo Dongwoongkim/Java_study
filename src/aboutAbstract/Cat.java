@@ -1,20 +1,12 @@
 package aboutAbstract;
 
-public class Cat extends Animal {
-
-    private String type;
+public class Cat extends Animal{
 
     public Cat(String type) {
         this.type = type;
     }
 
-    @Override
     public void bark() {
         System.out.println("This Cat howl like " + this.type);
-    }
-
-    @Override
-    public void sleep() {
-        System.out.println("Meow...zZ");
-    }
+    } // 중복 멤버
 }
