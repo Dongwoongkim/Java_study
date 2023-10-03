@@ -1,4 +1,4 @@
-package chat2.literal;
+package aboutVariables.literal;
 
 public class LiteralDelimiterTest0 {
     public static void main(String[] args) {

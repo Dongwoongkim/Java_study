@@ -1,4 +1,4 @@
-package chat2.constant;
+package aboutVariables.constant;
 
 public class ConstantTest {
     public static void main(String[] args) {

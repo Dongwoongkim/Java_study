@@ -1,4 +1,4 @@
-package chat2.StringEx;
+package aboutVariables.StringEx;
 
 public class Person {
 

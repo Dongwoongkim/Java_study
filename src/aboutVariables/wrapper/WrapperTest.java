@@ -1,4 +1,4 @@
-package chat2.wrapper;
+package aboutVariables.wrapper;
 
 public class WrapperTest {
     public static void main(String[] args) {

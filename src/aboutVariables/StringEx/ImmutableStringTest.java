@@ -1,4 +1,4 @@
-package chat2.StringEx;
+package aboutVariables.StringEx;
 
 public class ImmutableStringTest {
     public static void main(String[] args) {
