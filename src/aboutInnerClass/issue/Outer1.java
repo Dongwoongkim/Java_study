@@ -7,9 +7,9 @@ public class Outer1 {
         return k;
     }
 
-    static class Inner {
+    class Inner {
         int getOuterField() {
-            return Outer1.this.getK(); // 외부를 참조하는 외부클래스.this 키워드가 동작하지 않는 모습
+            return Outer1.this.getK(); // 외부를 참조하는 외부클래스.this 키워드가 동작하지 않는 모습 (static class일 때)
         }
     }
 }
